@@ -3,7 +3,7 @@ import Hamburger from "../../assets/images/hamburger.svg";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between items-center px-10 lg:px-40 py-6">
+    <div className="flex justify-between items-center px-8 sm:px-10 lg:px-40 py-6">
       <div className="">
         <img src={Logo} alt="" />
       </div>
