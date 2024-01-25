@@ -1,11 +1,11 @@
-import DigitalImg from "../../assets/images/Digital-Excellence.svg";
+import DigitalExcellence from "../../assets/images/Digital-Excellence.svg";
 
 export default function Digital() {
   return (
     <div className="container mx-auto">
       <div className="px-10 grid lg:flex justify-center md:justify-evenly items-center">
         <div className="justify-center grid">
-          <img src={DigitalImg} alt="Image" />
+          <img src={DigitalExcellence} alt="Digital-Excelence" />
         </div>
 
         {/* Divider */}
