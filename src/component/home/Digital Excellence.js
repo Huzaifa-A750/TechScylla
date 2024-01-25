@@ -31,7 +31,7 @@ export default function Digital() {
             technology, ensuring every solution is a step towards your success.
             With TechScylla, elevate your business in the digital world.
             <div className="pt-8 lg:pt-[54px] grid justify-center">
-              <button className="px-[60px] py-5 bg-[#2678F2] rounded-full text-white tracking-[0.32px] leading-6 font-[Avenir-Next-Regular] text-base font-semibold">
+              <button className="px-8 py-3 sm:px-[60px] sm:py-5 bg-[#2678F2] rounded-full text-white tracking-[0.32px] leading-6 font-[Avenir-Next-Regular] text-base font-semibold">
                 Read more
               </button>
             </div>
