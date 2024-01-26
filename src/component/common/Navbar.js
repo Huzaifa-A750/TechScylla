@@ -3,7 +3,7 @@ import Hamburger from "../../assets/images/hamburger.svg";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between items-center px-8 sm:px-10 lg:px-40 py-6">
+    <div className="flex container mx-auto justify-between items-center px-8 sm:px-10 lg:px-40 py-6">
       <div className="">
         <img src={Logo} alt="" />
       </div>
@@ -29,7 +29,7 @@ export default function Navbar() {
         <button className="text-base text-black font-normal leading-6 tracking-[0.32px]">
           FAQ
         </button>
-        <button className="bg-[#2678F2] text-white px-[30px] py-[10px] rounded-3xl">
+        <button className="bg-[#2678F2] hover:shadow-lg hover:shadow-blue-700 text-white px-[30px] py-[10px] rounded-3xl">
           Contact Us
         </button>
       </div>
