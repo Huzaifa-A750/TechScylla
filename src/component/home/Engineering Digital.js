@@ -11,8 +11,9 @@ import Youtube from "../../assets/images/Youtube.svg";
 
 export default function Engineering() {
   return (
-    <div className="container mx-auto mt-10 md:mt-0 flex section2 justify-center">
-      <div className="px-10 md:px-0 xl:px-16">
+    <div className="container mx-auto mt-10 md:mt-0 grid xl:flex justify-center lg:pb-32 pb-10">
+      <div className="px-10 md:px-4 xl:px-16">
+        <div className="justify-center grid xl:justify-start">
         <div className="w-auto sm:w-[448px]">
           <h2 className="text-[#1B1B1B] text-center sm:text-start text-[40px] font-[Avenir-Next-Regular] font-semibold leading-[48px] mb-0.5">
             Engineering Digital Excellence in Four Steps
@@ -20,6 +21,7 @@ export default function Engineering() {
           <div className="justify-center sm:justify-end grid sm:w-[480px]">
             <img src={UnderLine} alt="UnderLine" />
           </div>
+        </div>
         </div>
 
         {/* Services */}
@@ -107,8 +109,8 @@ export default function Engineering() {
 
       {/* Contact us Form */}
 
-      <div className="grid items-center justify-center forms1">
-        <div className="bg-[#303030] pb-[22px] rounded-[30px] forms2 px-6 pt-[41px] grid justify-center w-[390px] text-center">
+      <div className="grid items-center justify-center mt-12 xl:mt-0">
+        <div className="bg-[#303030] pb-[22px] rounded-[30px] px-6 pt-[41px] grid justify-center w-auto sm:w-[500px] md:w-[700px] xl:w-[390px] text-center">
           <h3 className="text-white text-[40px] font-medium font-[Avenir-Next-Regular] leading-normal">
             Contact <span className="text-[#2678F2]">us</span>
           </h3>
@@ -116,7 +118,7 @@ export default function Engineering() {
             Let's get in touch!
           </p>
           <div className="mt-5">
-            <form className="gap-y-8 grid forms3">
+            <form className="gap-y-8 grid max-w-[500px] xl:max-w-0">
               {/* Email */}
               <label className="hidden focus:grid text-xs text-white justify-start">
                 Email
@@ -157,7 +159,7 @@ export default function Engineering() {
               </div>
             </form>
           </div>
-          <button className="mt-[37px] mb-[33px] text-[18px] font-medium leading-normal font-[Avenir-Next-Regular] text-white bg-[#2678F2] rounded-md h-[37px] hover:shadow-lg hover:shadow-blue-700">
+          <button className="mt-[37px] mb-[33px] text-[18px] font-medium leading-normal font-[Avenir-Next-Regular] text-white bg-[#2678F2] duration-150 rounded-md h-[37px] hover:shadow-lg hover:shadow-blue-700">
             Submit
           </button>
           <div className="relative mb-[34px]">
@@ -175,10 +177,10 @@ export default function Engineering() {
             </div>
           </div>
           <div className="flex gap-x-[15px] justify-center">
-            <img src={Instagram} alt="Instagram" />
-            <img src={Twitter} alt="Twitter" />
-            <img src={Facebook} alt="Facebook" />
-            <img src={Youtube} alt="Youtube" />
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" className="hover:-mt-1 duration-150"><img src={Instagram} alt="Instagram" /></a>
+            <a href="https://www.twitter.com/" target="_blank" rel="noreferrer" className="hover:-mt-1 duration-150"><img src={Twitter} alt="Twitter" /></a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" className="hover:-mt-1 duration-150"><img src={Facebook} alt="Facebook" /></a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noreferrer" className="hover:-mt-1 duration-150"><img src={Youtube} alt="Youtube" /></a>
           </div>
         </div>
       </div>
