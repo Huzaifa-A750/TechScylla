@@ -17,7 +17,7 @@ export default function Digital() {
         </div>
 
         <div className="w-auto sm:w-[544px] grid lg:text-start text-center">
-          <h2 className="text-[#1B1B1B] text-[40px] font-[Avenir-Next-Regular] font-semibold leading-[48px] mb-[13px]">
+          <h2 className="text-[#1B1B1B] text-2xl sm:text-[40px] font-[Avenir-Next-Regular] font-semibold sm:leading-[48px] leading-7 mb-[13px]">
             Digital Excellence for Your Business
           </h2>
           <p className="text-[#1B1B1B] text-base font-[Avenir-Next-Regular] font-normal leading-6">

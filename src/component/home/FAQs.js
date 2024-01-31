@@ -5,8 +5,8 @@ export default function FAQs() {
     <div className="container mx-auto mt-16 lg:mt-[220px] pb-[65px]">
       <div className="text-black gap-x-10 xl:gap-x-20 justify-center grid text-center lg:text-start lg:flex px-8">
         <div className="font-semibold w-auto md:w-[500px] mb-7 lg:mb-0">
-          <div className="gap-y-6 grid text-[45px] font-[Avenir-Next-Bold]">
-            <h1 className="leading-[54px]">FAQs</h1>
+          <div className="gap-y-6 grid text-2xl sm:text-[45px] font-[Avenir-Next-Bold]">
+            <h1 className="leading-9 sm:leading-[54px]">FAQs</h1>
             <p className="text-[18px] font-normal font-[Avenir-Next-Regular] leading-[27px]">
               Your Gateway to a Wide Spectrum of Customized Digital Solutions.
             </p>
@@ -16,7 +16,7 @@ export default function FAQs() {
         {/* Dropdown */}
 
         <div className="w-auto md:w-[549px] grid font-[Avenir-Next-Regular] font-normal">
-          <div className="text-[18px] grid items-center">
+          <div className="text-base sm:text-[18px] grid items-center">
             {/* first-Divider */}
 
             <hr class="h-[1px] border-t-0 bg-black" />

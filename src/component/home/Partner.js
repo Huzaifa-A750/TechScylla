@@ -16,7 +16,7 @@ export default function Partner() {
     <div className="container mx-auto">
       <div className="grid justify-center pt-[90px]">
         <div className="justify-center text-center pb-9 sm:pb-[78px] gap-y-2 grid px-4">
-          <h1 className="text-black w-auto sm:w-[627px] font-[Avenir-Next-Regular] text-[40px] font-semibold leading-[48px] pb-2 px-2 md:px-0 sm:pb-0">
+          <h1 className="text-black w-auto sm:w-[627px] font-[Avenir-Next-Regular] text-2xl sm:text-[40px] font-semibold leading-9 sm:leading-[48px] pb-2 px-2 md:px-0 sm:pb-0">
             Your Full-Spectrum Digital Partner
           </h1>
           <p className="text-black w-auto sm:w-[627px] text-base font-[Avenir-Next-Regular] font-normal leading-6 px-12">
