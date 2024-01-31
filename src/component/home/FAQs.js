@@ -29,7 +29,7 @@ export default function FAQs() {
                   What digital services does TechScylla offer?
                 </p>
               </div>
-              <div className="justify-center grid pt-0 sm:pt-2">
+              <div className="justify-center grid pt-0 sm:pt-2 animate-bounce sm:animate-none">
                 <img src={dropdownarrow} alt="dropdownarrow" />
               </div>
             </div>
@@ -46,7 +46,7 @@ export default function FAQs() {
                   How does the project development process work at TechScylla?
                 </p>
               </div>
-              <div className="justify-center grid pt-0 sm:pt-2">
+              <div className="justify-center grid pt-0 sm:pt-2 animate-bounce sm:animate-none">
                 <img src={dropdownarrow} alt="dropdownarrow" />
               </div>
             </div>
@@ -64,7 +64,7 @@ export default function FAQs() {
                   businesses?
                 </p>
               </div>
-              <div className="justify-center grid pt-0 sm:pt-2">
+              <div className="justify-center grid pt-0 sm:pt-2 animate-bounce sm:animate-none">
                 <img src={dropdownarrow} alt="dropdownarrow" />
               </div>
             </div>
@@ -81,7 +81,7 @@ export default function FAQs() {
                   What is the typical timeframe for a project?
                 </p>
               </div>
-              <div className="justify-center grid pt-0 sm:pt-2">
+              <div className="justify-center grid pt-0 sm:pt-2 animate-bounce sm:animate-none">
                 <img src={dropdownarrow} alt="dropdownarrow" />
               </div>
             </div>
@@ -99,7 +99,7 @@ export default function FAQs() {
                   solutions?
                 </p>
               </div>
-              <div className="justify-center grid pt-0 sm:pt-2">
+              <div className="justify-center grid pt-0 sm:pt-2 animate-bounce sm:animate-none">
                 <img src={dropdownarrow} alt="dropdownarrow" />
               </div>
             </div>
