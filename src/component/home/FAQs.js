@@ -2,7 +2,7 @@ import dropdownarrow from "../../assets/images/Icon.svg";
 
 export default function FAQs() {
   return (
-    <div className="container mx-auto mt-[220px] pb-[65px]">
+    <div className="container mx-auto mt-16 lg:mt-[220px] pb-[65px]">
       <div className="text-black gap-x-10 xl:gap-x-20 justify-center grid text-center lg:text-start lg:flex px-8">
         <div className="font-semibold w-auto md:w-[500px] mb-7 lg:mb-0">
           <div className="gap-y-6 grid text-[45px] font-[Avenir-Next-Bold]">
