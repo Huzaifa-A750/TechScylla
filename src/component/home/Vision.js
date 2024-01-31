@@ -6,7 +6,7 @@ import User from "../../assets/images/user.svg";
 
 export default function Vision() {
   return (
-    <div className="bg-[#D0E1FA57]">
+    <div className="bg-[#D0E1FA57] flex justify-center">
       <div className="container px-20 justify-center grid lg:flex items-center py-12">
         <div className="justify-center grid xl:justify-start">
           <div className="w-[280px] sm:w-[512px] text-center xl:text-start">
