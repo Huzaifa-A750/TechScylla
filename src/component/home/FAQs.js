@@ -2,8 +2,8 @@ import dropdownarrow from "../../assets/images/Icon.svg";
 
 export default function FAQs() {
   return (
-    <div className="container mx-auto mt-[220px]">
-      <div className="text-black gap-x-20 justify-center grid text-center lg:text-start lg:flex px-8 sm:px-0">
+    <div className="container mx-auto mt-[220px] pb-[65px]">
+      <div className="text-black gap-x-10 xl:gap-x-20 justify-center grid text-center lg:text-start lg:flex px-8">
         <div className="font-semibold w-auto md:w-[500px] mb-7 lg:mb-0">
           <div className="gap-y-6 grid text-[45px] font-[Avenir-Next-Bold]">
             <h1 className="leading-[54px]">FAQs</h1>
@@ -40,13 +40,13 @@ export default function FAQs() {
 
             {/* Text and image  */}
 
-            <div className="py-5 grid sm:flex justify-center sm:justify-between cursor-pointer gap-0 sm:gap-3">
+            <div className="py-3 sm:py-5 grid sm:flex justify-center sm:justify-between cursor-pointer gap-0 sm:gap-3">
               <div className="">
                 <p className="leading-[27px]">
                   How does the project development process work at TechScylla?
                 </p>
               </div>
-              <div className="justify-center grid pt-2">
+              <div className="justify-center grid pt-0 sm:pt-2">
                 <img src={dropdownarrow} alt="dropdownarrow" />
               </div>
             </div>
@@ -57,14 +57,14 @@ export default function FAQs() {
 
             {/* Text and image  */}
 
-            <div className="py-5 grid sm:flex justify-center sm:justify-between cursor-pointer gap-0 sm:gap-3">
+            <div className="py-3 sm:py-5 grid sm:flex justify-center sm:justify-between cursor-pointer gap-0 sm:gap-3">
               <div className="">
                 <p className="leading-[27px]">
                   Can TechScylla provide solutions for startups and small
                   businesses?
                 </p>
               </div>
-              <div className="justify-center grid pt-2">
+              <div className="justify-center grid pt-0 sm:pt-2">
                 <img src={dropdownarrow} alt="dropdownarrow" />
               </div>
             </div>
@@ -75,13 +75,13 @@ export default function FAQs() {
 
             {/* Text and image  */}
 
-            <div className="py-5 grid sm:flex justify-center sm:justify-between cursor-pointer gap-0 sm:gap-3">
+            <div className="py-3 sm:py-5 grid sm:flex justify-center sm:justify-between cursor-pointer gap-0 sm:gap-3">
               <div className="">
                 <p className="leading-[27px]">
                   What is the typical timeframe for a project?
                 </p>
               </div>
-              <div className="justify-center grid pt-2">
+              <div className="justify-center grid pt-0 sm:pt-2">
                 <img src={dropdownarrow} alt="dropdownarrow" />
               </div>
             </div>
@@ -92,14 +92,14 @@ export default function FAQs() {
 
             {/* Text and image  */}
 
-            <div className="py-5 grid sm:flex justify-center sm:justify-between cursor-pointer gap-0 sm:gap-3">
+            <div className="py-3 sm:py-5 grid sm:flex justify-center sm:justify-between cursor-pointer gap-0 sm:gap-3">
               <div className="">
                 <p className="leading-[27px]">
                   How does TechScylla ensure the security of its digital
                   solutions?
                 </p>
               </div>
-              <div className="justify-center grid pt-2">
+              <div className="justify-center grid pt-0 sm:pt-2">
                 <img src={dropdownarrow} alt="dropdownarrow" />
               </div>
             </div>

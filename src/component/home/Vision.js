@@ -7,9 +7,9 @@ import User from "../../assets/images/user.svg";
 export default function Vision() {
   return (
     <div className="bg-[#D0E1FA57]">
-      <div className="container px-10 mx-auto justify-center grid lg:flex items-center py-12">
+      <div className="container px-20 justify-center grid lg:flex items-center py-12">
         <div className="justify-center grid xl:justify-start">
-          <div className="w-[300px] sm:w-[512px] text-center xl:text-start">
+          <div className="w-[280px] sm:w-[512px] text-center xl:text-start">
             <h2 className="text-black font-[Avenir-Next-Regular] text-[32px] font-semibold leading-[41px]">
               Our Vision at TechScylla
             </h2>
@@ -23,7 +23,7 @@ export default function Vision() {
           {/* Divider-Start */}
 
           <div className="justify-center grid md:justify-normal">
-            <hr class="my-[44px] h-[1px] w-[200px] md:w-full xl:w-[476px] border-t-0 bg-[#54505066]" />
+            <hr class="my-10 xl:my-11 h-[1px] w-[200px] md:w-full xl:w-[476px] border-t-0 bg-[#54505066]" />
           </div>
 
           {/* Divider-End */}
@@ -65,7 +65,7 @@ export default function Vision() {
         {/* col-1 */}
 
         <div className="grid gap-y-[30px] mt-10 xl:mt-0">
-          <div className="border-[4px] w-[300px] sm:w-[450px] md:w-auto lg:w-[420px] xl:w-auto py-2 flex linear-gradient pt-6 border-[#ECF3FD] border-solid rounded-[18px] bg-[#6387A100] shadow-xl px-4">
+          <div className="border-[4px] w-[280px] sm:w-[450px] md:w-auto lg:w-[420px] xl:w-auto py-2 flex linear-gradient pt-6 border-[#ECF3FD] border-solid rounded-[18px] bg-[#6387A100] shadow-xl px-4">
             <div className="pt-2 sm:items-start grid items-center ">
               <img src={Rocket} alt="" />
             </div>
@@ -90,7 +90,7 @@ export default function Vision() {
 
           {/* col-2 */}
 
-          <div className="grid w-[200px] sm:w-[560px] md:w-auto lg:w-[420px] xl:w-auto pl-2 gap-y-5">
+          <div className="grid w-[200px] sm:w-[560px] md:w-auto lg:w-[420px] xl:w-auto gap-y-5">
             <div className="flex justify-between">
               <div className="flex gap-x-3 sm:gap-x-6">
                 <img src={Excellence} alt="Excellence" />
@@ -113,7 +113,7 @@ export default function Vision() {
 
           {/* col-3 */}
 
-          <div className="grid w-[200px] sm:w-[560px] md:w-auto lg:w-[420px] xl:w-auto pl-2 gap-y-5">
+          <div className="grid w-[200px] sm:w-[560px] md:w-auto lg:w-[420px] xl:w-auto gap-y-5">
             <div className="flex justify-between">
               <div className="flex gap-x-3 sm:gap-x-6">
                 <img src={Happy} alt="Happy" />
@@ -136,7 +136,7 @@ export default function Vision() {
 
           {/* col-4 */}
 
-          <div className="grid w-[200px] sm:w-[560px] md:w-auto lg:w-[420px] xl:w-auto pl-2 gap-y-5">
+          <div className="grid w-[200px] sm:w-[560px] md:w-auto lg:w-[420px] xl:w-auto gap-y-5">
             <div className="flex justify-between">
               <div className="flex gap-x-3 sm:gap-x-6">
                 <img src={User} alt="User" />

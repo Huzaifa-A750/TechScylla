@@ -12,7 +12,7 @@ import Youtube from "../../assets/images/Youtube.svg";
 export default function Engineering() {
   return (
     <div className="container mx-auto mt-10 md:mt-0 grid xl:flex justify-center lg:pb-32 pb-10">
-      <div className="px-10 md:px-4 xl:px-16">
+      <div className="px-2 md:px-4 xl:px-16">
         <div className="justify-center grid xl:justify-start">
         <div className="w-auto sm:w-[448px]">
           <h2 className="text-[#1B1B1B] text-center sm:text-start text-[40px] font-[Avenir-Next-Regular] font-semibold leading-[48px] mb-0.5">
@@ -110,7 +110,7 @@ export default function Engineering() {
       {/* Contact us Form */}
 
       <div className="grid items-center justify-center mt-12 xl:mt-0">
-        <div className="bg-[#303030] pb-[22px] rounded-[30px] px-6 pt-[41px] grid justify-center w-auto sm:w-[500px] md:w-[700px] xl:w-[390px] text-center">
+        <div className="bg-[#303030] pb-[22px] rounded-[30px] px-6 pt-[41px] grid justify-center w-[280px] sm:w-[500px] md:w-[700px] xl:w-[390px] text-center">
           <h3 className="text-white text-[40px] font-medium font-[Avenir-Next-Regular] leading-normal">
             Contact <span className="text-[#2678F2]">us</span>
           </h3>
