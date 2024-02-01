@@ -10,10 +10,10 @@ export default function Vision() {
       <div className="container px-8 sm:px-20 justify-center grid lg:flex items-center py-12">
         <div className="justify-center grid xl:justify-start">
           <div className="w-auto sm:w-[512px] text-center xl:text-start">
-            <h2 className="text-black font-[Avenir-Next-Regular] text-2xl sm:text-[32px] font-semibold leading-[41px]">
+            <h2 className="text-black font-[Avenir-Next-Regular] text-2xl sm:text-[32px] font-semibold leading-[41.6px] pb-1">
               Our Vision at TechScylla
             </h2>
-            <p className="text-black font-[Avenir-Next-Regular] text-base px-4 pt-4 md:px-0 md:pt-0">
+            <p className="text-black leading-6 font-[Avenir-Next-Regular] text-base px-4 pt-4 md:px-0 md:pt-0">
               We strive to empower businesses and startups by harnessing the
               power of technology, delivering digital services that redefine the
               boundaries of creativity and efficiency.{" "}
@@ -59,13 +59,13 @@ export default function Vision() {
         {/* Vertical-Divider-Start */}
 
         <div class="hidden lg:grid">
-          <div class="inline-block h-[550px] w-[1px] bg-[#54505066] mx-8 xl:mx-[56px] opacity-40"></div>
+          <div class="inline-block h-[620px] w-[1px] bg-[#54505066] mx-8 xl:mx-[56px] opacity-40"></div>
         </div>
 
         {/* col-1 */}
 
-        <div className="grid gap-y-[30px] mt-10 xl:mt-0">
-          <div className="border-[4px] justify-between w-auto sm:w-auto lg:w-[420px] xl:w-auto py-2 flex linear-gradient pt-6 border-[#ECF3FD] border-solid rounded-[18px] bg-[#6387A100] shadow-xl px-4">
+        <div className="grid gap-y-5 -mt-20">
+          <div className="border-[4px] justify-between w-auto sm:w-auto lg:w-[594px] py-2 flex linear-gradient pt-6 border-[#ECF3FD] border-solid rounded-[18px] bg-[#6387A100] shadow-xl px-4">
             <div className="pt-2 sm:items-start grid items-center ">
               <img src={Rocket} alt="" />
             </div>
@@ -90,7 +90,7 @@ export default function Vision() {
 
           {/* col-2 */}
 
-          <div className="grid w-auto sm:w-[560px] md:w-auto lg:w-[420px] xl:w-auto gap-y-5">
+          <div className="grid w-auto sm:w-[560px] gap-y-5">
             <div className="flex justify-between">
               <div className="flex gap-x-3 sm:gap-x-6">
                 <img src={Excellence} alt="Excellence" />
@@ -98,7 +98,7 @@ export default function Vision() {
                   Excellence
                 </p>
               </div>
-              <div className="grid items-center">
+              <div className="grid items-center -mr-6">
                 <img
                   src={ArrowDown}
                   alt="ArrowDown"
@@ -113,7 +113,7 @@ export default function Vision() {
 
           {/* col-3 */}
 
-          <div className="grid w-auto sm:w-[560px] md:w-auto lg:w-[420px] xl:w-auto gap-y-5">
+          <div className="grid w-auto sm:w-[560px] gap-y-5">
             <div className="flex justify-between">
               <div className="flex gap-x-3 sm:gap-x-6">
                 <img src={Happy} alt="Happy" />
@@ -121,7 +121,7 @@ export default function Vision() {
                   Collaborative Growth
                 </p>
               </div>
-              <div className="grid items-center">
+              <div className="grid items-center -mr-6">
                 <img
                   src={ArrowDown}
                   alt="ArrowDown"
@@ -136,7 +136,7 @@ export default function Vision() {
 
           {/* col-4 */}
 
-          <div className="grid w-auto sm:w-[560px] md:w-auto lg:w-[420px] xl:w-auto gap-y-5">
+          <div className="grid w-auto sm:w-[560px] gap-y-5">
             <div className="flex justify-between">
               <div className="flex gap-x-3 sm:gap-x-6">
                 <img src={User} alt="User" />
@@ -144,7 +144,7 @@ export default function Vision() {
                   Adaptability and Agility
                 </p>
               </div>
-              <div className="grid items-center">
+              <div className="grid items-center -mr-6">
                 <img
                   src={ArrowDown}
                   alt="ArrowDown"

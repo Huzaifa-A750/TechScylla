@@ -1,14 +1,12 @@
 import "./App.css";
 import Hero from "./component/about/hero";
-import Layout from "./component/common/layout";
 
-
-function about(){
-    return(
-        <Layout>
-            <Hero />
-        </Layout>
-    )
+function about() {
+  return (
+    <div className="">
+      <Hero />
+    </div>
+  );
 }
 
 export default about;

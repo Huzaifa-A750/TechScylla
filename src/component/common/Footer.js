@@ -12,73 +12,107 @@ export default function Footer() {
               <img src={Logo} alt="Logo" className="cursor-pointer" />
             </div>
             <div className="grid sm:flex gap-8 lg:gap-6 xl:gap-[51px] text-center lg:text-start font-medium justify-center">
-              <ul className="text-white gap-y-[13px] flex flex-col font-thin w-auto lg:w-[73px]">
+              <ul className="text-white gap-y-[13px] md:gap-0 flex flex-col font-thin w-auto lg:w-[73px]">
                 <li className="mb-2 xl:mb-6">
-                  <p className="text-base font-[Avenir-Next-Regular]  leading-6">
+                  <p className="text-base font-[Avenir-Next-Regular] leading-6">
                     Main
                   </p>
                 </li>
-                <li>
-                  <a href="_blank" className="hover:border-b-[1px] border-white">
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a href="_blank" className="hover:border-b-[1px] border-white">
-                    About Us
-                  </a>
-                </li>
-                <li>
-                  <a href="_blank" className="hover:border-b-[1px] border-white">
-                    FAQ
-                  </a>
-                </li>
-                <li>
-                  <a href="_blank" className="hover:border-b-[1px] border-white">
-                    Contact Us
-                  </a>
-                </li>
+                <div className="gap-y-2 grid">
+                  <li>
+                    <a
+                      href="_blank"
+                      className="hover:border-b-[1px] border-white opacity-[0.72]"
+                    >
+                      Home
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="_blank"
+                      className="hover:border-b-[1px] border-white opacity-[0.72]"
+                    >
+                      About Us
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="_blank"
+                      className="hover:border-b-[1px] border-white opacity-[0.72]"
+                    >
+                      FAQ
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="_blank"
+                      className="hover:border-b-[1px] border-white opacity-[0.72]"
+                    >
+                      Contact Us
+                    </a>
+                  </li>
+                </div>
               </ul>
-              <ul className="text-white gap-y-[13px] flex flex-col font-thin w-auto lg:w-[120px]">
+              <ul className="text-white gap-y-[13px] md:gap-0 flex flex-col font-thin w-auto lg:w-[120px]">
                 <li className="mb-2 xl:mb-6">
                   <p className="text-base font-[Avenir-Next-Regular]  leading-6">
                     Services
                   </p>
                 </li>
-                <li>
-                  <a href="_blank" className="hover:border-b-[1px] border-white">
-                    Development
-                  </a>
-                </li>
-                <li>
-                  <a href="_blank" className="hover:border-b-[1px] border-white">
-                    Digital Marketing
-                  </a>
-                </li>
-                <li>
-                  <a href="_blank" className="hover:border-b-[1px] border-white">
-                    Ecommerce
-                  </a>
-                </li>
-                <li>
-                  <a href="_blank" className="hover:border-b-[1px] border-white">
-                    Design &#38; building
-                  </a>
-                </li>
-                <li>
-                  <a href="_blank" className="hover:border-b-[1px] border-white">
-                    Others
-                  </a>
-                </li>
+                <div className="gap-y-2 grid">
+                  <li>
+                    <a
+                      href="_blank"
+                      className="hover:border-b-[1px] border-white opacity-[0.72]"
+                    >
+                      Development
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="_blank"
+                      className="hover:border-b-[1px] border-white opacity-[0.72]"
+                    >
+                      Digital Marketing
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="_blank"
+                      className="hover:border-b-[1px] border-white opacity-[0.72]"
+                    >
+                      Ecommerce
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="_blank"
+                      className="hover:border-b-[1px] border-white opacity-[0.72]"
+                    >
+                      Design &#38; building
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="_blank"
+                      className="hover:border-b-[1px] border-white opacity-[0.72]"
+                    >
+                      Others
+                    </a>
+                  </li>
+                </div>
               </ul>
-              <ul className="text-white gap-y-[13px] flex flex-col font-thin">
+              <ul className="text-white gap-y-[13px] md:gap-0 flex flex-col font-thin">
                 <li className="mb-2 xl:mb-6">
                   <p className="text-base font-[Avenir-Next-Regular] leading-6">
                     Privacy &#38; Terms
                   </p>
                 </li>
                 <li>
-                  <a href="_blank" className="hover:border-b-[1px] border-white">
+                  <a
+                    href="_blank"
+                    className="hover:border-b-[1px] border-white opacity-[0.72]"
+                  >
                     Cookie Settings
                   </a>
                 </li>
@@ -130,10 +164,10 @@ export default function Footer() {
               </p>
             </div>
             <div className="flex gap-4 text-white text-2xl justify-center">
-              <i className="fa-brands fa-facebook-f rounded-full hover:-mt-3 hover:text-[#316FF6] hover:w-[40px] hover:pl-3 hover:duration-0 hover:bg-white hover:p-2 duration-200"></i>
-              <i className="fa-brands fa-instagram rounded-full hover:w-[40px] hover:-mt-3 hover:pl-[9px] hover:text-purple-600 hover:bg-white hover:p-2 duration-200"></i>
-              <i className="fa-brands fa-twitter rounded-full hover:w-[40px] hover:-mt-3 hover:text-[#1DA1F2] hover:bg-white hover:p-2 duration-200"></i>
-              <i className="fa-brands fa-linkedin rounded-full hover:w-[40px] hover:-mt-3 hover:pl-[9px] hover:text-[#0077b5] hover:bg-white hover:p-2 duration-200"></i>
+              <i className="fa-brands fa-facebook-f rounded-full cursor-pointer duration-200"></i>
+              <i className="fa-brands fa-instagram rounded-full cursor-pointer hover:text-purple-600 duration-200"></i>
+              <i className="fa-brands fa-twitter rounded-full cursor-pointer hover:text-[#1DA1F2] duration-200"></i>
+              <i className="fa-brands fa-linkedin rounded-full cursor-pointer hover:text-[#0077b5] duration-200"></i>
             </div>
           </div>
         </div>

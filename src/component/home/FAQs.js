@@ -23,13 +23,13 @@ export default function FAQs() {
 
             {/* Text and image  */}
 
-            <div className="py-3 sm:py-5 grid sm:flex justify-center sm:justify-between cursor-pointer gap-0 sm:gap-3">
+            <div className="py-3 sm:py-5 items-center grid sm:flex justify-center sm:justify-between cursor-pointer gap-0 sm:gap-3">
               <div className="">
                 <p className="leading-[27px]">
                   What digital services does TechScylla offer?
                 </p>
               </div>
-              <div className="justify-center grid pt-0 sm:pt-2 animate-bounce sm:animate-none">
+              <div className="justify-center grid pt-0 animate-bounce sm:animate-none">
                 <img src={dropdownarrow} alt="dropdownarrow" />
               </div>
             </div>
@@ -40,13 +40,13 @@ export default function FAQs() {
 
             {/* Text and image  */}
 
-            <div className="py-3 sm:py-5 grid sm:flex justify-center sm:justify-between cursor-pointer gap-0 sm:gap-3">
+            <div className="py-3 sm:py-5 items-center grid sm:flex justify-center sm:justify-between cursor-pointer gap-0 sm:gap-3">
               <div className="">
                 <p className="leading-[27px]">
                   How does the project development process work at TechScylla?
                 </p>
               </div>
-              <div className="justify-center grid pt-0 sm:pt-2 animate-bounce sm:animate-none">
+              <div className="justify-center grid pt-0 animate-bounce sm:animate-none">
                 <img src={dropdownarrow} alt="dropdownarrow" />
               </div>
             </div>
@@ -57,14 +57,14 @@ export default function FAQs() {
 
             {/* Text and image  */}
 
-            <div className="py-3 sm:py-5 grid sm:flex justify-center sm:justify-between cursor-pointer gap-0 sm:gap-3">
+            <div className="py-3 sm:py-5 items-center grid sm:flex justify-center sm:justify-between cursor-pointer gap-0 sm:gap-3">
               <div className="">
                 <p className="leading-[27px]">
                   Can TechScylla provide solutions for startups and small
                   businesses?
                 </p>
               </div>
-              <div className="justify-center grid pt-0 sm:pt-2 animate-bounce sm:animate-none">
+              <div className="justify-center grid pt-0 animate-bounce sm:animate-none">
                 <img src={dropdownarrow} alt="dropdownarrow" />
               </div>
             </div>
@@ -75,13 +75,13 @@ export default function FAQs() {
 
             {/* Text and image  */}
 
-            <div className="py-3 sm:py-5 grid sm:flex justify-center sm:justify-between cursor-pointer gap-0 sm:gap-3">
+            <div className="py-3 sm:py-5 items-center grid sm:flex justify-center sm:justify-between cursor-pointer gap-0 sm:gap-3">
               <div className="">
                 <p className="leading-[27px]">
                   What is the typical timeframe for a project?
                 </p>
               </div>
-              <div className="justify-center grid pt-0 sm:pt-2 animate-bounce sm:animate-none">
+              <div className="justify-center grid pt-0 animate-bounce sm:animate-none">
                 <img src={dropdownarrow} alt="dropdownarrow" />
               </div>
             </div>
@@ -92,14 +92,14 @@ export default function FAQs() {
 
             {/* Text and image  */}
 
-            <div className="py-3 sm:py-5 grid sm:flex justify-center sm:justify-between cursor-pointer gap-0 sm:gap-3">
+            <div className="py-3 sm:py-5 items-center grid sm:flex justify-center sm:justify-between cursor-pointer gap-0 sm:gap-3">
               <div className="">
                 <p className="leading-[27px]">
                   How does TechScylla ensure the security of its digital
                   solutions?
                 </p>
               </div>
-              <div className="justify-center grid pt-0 sm:pt-2 animate-bounce sm:animate-none">
+              <div className="justify-center grid pt-0 animate-bounce sm:animate-none">
                 <img src={dropdownarrow} alt="dropdownarrow" />
               </div>
             </div>

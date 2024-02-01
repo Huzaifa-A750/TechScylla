@@ -1,6 +1,6 @@
 import Logo from "../../assets/images/Logo.svg";
 import Hamburger from "../../assets/images/hamburger.svg";
-import About from "../../about.js";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -17,25 +17,23 @@ export default function Navbar() {
         </button>
       </div>
 
-
-      <div className="gap-x-10 hidden lg:flex font-[Avenir-Next-Regular] font-normal">
-        <button className="text-base text-black font-normal leading-6 tracking-[0.32px]">
-          Services
-        </button>
-        <button className="text-base text-black font-normal leading-6 tracking-[0.32px]">
-          Blogs
-        </button>
-        <button className="text-base text-black font-normal leading-6 tracking-[0.32px]">
-          <a href={About}>About Us</a>
-          <a href={About}>About</a>
-        </button>
-        <button className="text-base text-black font-normal leading-6 tracking-[0.32px]">
-          FAQ
-        </button>
-        <button className="bg-[#2678F2] hover:shadow-lg hover:shadow-blue-700 text-white px-[30px] py-[10px] rounded-3xl">
-          Contact Us
-        </button>
-      </div>
+      <ul className="gap-x-10 items-center hidden lg:flex font-[Avenir-Next-Regular] font-normal">
+        <li className="text-base text-black font-normal leading-6 tracking-[0.32px]">
+          <Link>Services</Link>
+        </li>
+        <li className="text-base text-black font-normal leading-6 tracking-[0.32px]">
+          <Link>Blogs</Link>
+        </li>
+        <li className="text-base text-black font-normal leading-6 tracking-[0.32px]">
+          <Link to="/about">About Us</Link>
+        </li>
+        <li className="text-base text-black font-normal leading-6 tracking-[0.32px]">
+          <Link>FAQ</Link>
+        </li>
+        <li className="bg-[#2678F2] text-white px-[30px] py-[10px] rounded-3xl">
+          <Link>Contact Us</Link>
+        </li>
+      </ul>
     </div>
   );
 }

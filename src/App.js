@@ -1,23 +1,17 @@
 import "./App.css";
 import Layout from "./component/common/layout";
-import Digital from "./component/home/Digital Excellence";
-import Engineering from "./component/home/Engineering Digital";
-import FAQs from "./component/home/FAQs";
-import Partner from "./component/home/Partner";
-import Vision from "./component/home/Vision";
-import Hero from "./component/home/hero";
+import { Route, Routes } from "react-router-dom";
+
+import Home from "./home";
+import About from "./about";
 
 function App() {
   return (
     <Layout>
-      <div className="App">
-        <Hero />
-        <Digital/>
-        <Engineering/>
-        <Vision/>
-        <Partner/>
-        <FAQs />
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/about" element={<About />}/>
+      </Routes>
     </Layout>
   );
 }

@@ -24,34 +24,34 @@ export default function Partner() {
             partnerships. By hiring a dedicated team from us.
           </p>
         </div>
-        <div className="gap-x-[50px] xl:gap-x-[80px] flex-wrap justify-center lg:flex-nowrap text-center grid sm:flex mb-[55px] border-b-[1px] border-solid border-[#54505066] px-4">
+        <div className="gap-x-3 flex-wrap justify-center lg:flex-nowrap text-center grid sm:flex mb-[40px] border-b-[1px] border-solid border-[#54505066]">
           <div>
-            <button className="hover:px-[40px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] hover:mb-2 hover:bg-[#2678F2] duration-200">
+            <button className="px-[40px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] mb-2 hover:bg-[#2678F2] duration-200">
               Web Development
             </button>
           </div>
           <div>
-            <button className="hover:px-[40px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] hover:mb-2 hover:bg-[#2678F2] duration-200">
+            <button className="px-[40px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] mb-2 hover:bg-[#2678F2] duration-200">
               Digital Marketing
             </button>
           </div>
           <div>
-            <button className="hover:px-[40px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] hover:mb-2 hover:bg-[#2678F2] duration-200">
+            <button className="px-[40px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] mb-2 hover:bg-[#2678F2] duration-200">
               Ecommerce
             </button>
           </div>
           <div>
-            <button className="hover:px-[40px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] hover:mb-2 hover:bg-[#2678F2] duration-200">
+            <button className="px-[40px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] mb-2 hover:bg-[#2678F2] duration-200">
               Design and Branding
             </button>
           </div>
           <div>
-            <button className="hover:px-[40px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] hover:mb-2 hover:bg-[#2678F2] duration-200">
+            <button className="px-[40px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] mb-2 hover:bg-[#2678F2] duration-200">
               SEO
             </button>
           </div>
           <div>
-            <button className="hover:px-[40px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] hover:mb-2 hover:bg-[#2678F2] duration-200">
+            <button className="px-[40px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] mb-2 hover:bg-[#2678F2] duration-200">
               Others
             </button>
           </div>
@@ -60,95 +60,92 @@ export default function Partner() {
         {/* Row-1 */}
 
         <div className="grid justify-center items-center px-8">
-          <div className="mb-7 md:mb-[70px] flex-wrap gap-y-7 flex items-center gap-x-12 lg:gap-x-[78px] justify-center relative">
+          <div className="mb-7 md:mb-[50px] flex-wrap gap-y-4 flex items-center justify-center relative">
             {/* < className="flex flex-wrap gap-x-14 gap-y-7 lg:gap-x-[78px] justify-center md:mb-0 mb-7 items-center"> */}
-              <button className="hover:px-12 hover:pt-9 hover:pb-5 innershadow rounded-xl duration-200 gap-y-[8px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
+            <button className="px-10 pt-6 pb-5 innershadow rounded-xl duration-200 grid text-black text-base font-medium items-center leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
+              <div className="grid items-center justify-center gap-y-2 -mb-3">
                 <div className="grid justify-center">
                   <img src={HTML} alt="HTML" />
                 </div>
                 <p>HTML5</p>
-              </button>
-              <button className="hover:px-12 hover:pt-9 hover:pb-5 innershadow rounded-xl duration-200 gap-y-[8px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
-                <div className="grid justify-center">
-                  <img src={Javascript} alt="Javascript" />
-                </div>
-                <p>Javascript</p>
-              </button>
-              <button className="hover:px-12 hover:pt-9 hover:pb-5 innershadow rounded-xl duration-200 gap-y-[8px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
-                <div className="grid justify-center">
-                  <img src={React} alt="React" />
-                </div>
-                <p>React</p>
-              </button>
-              <button className="hover:px-12 hover:pt-9 hover:pb-5 innershadow rounded-xl duration-200 gap-y-[8px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
-                <div className="grid justify-center">
-                  <img src={Flutter} alt="Flutter" />
-                </div>
-                <p>Flutter</p>
-              </button>
-            
-            {/* < className="flex flex-wrap gap-x-14 gap-y-7 lg:gap-x-[78px] justify-center md:mb-0 mb-7 items-center"> */}
-              <button className="hover:px-12 hover:pt-9 hover:pb-5 innershadow rounded-xl duration-200 gap-y-[8px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
-                <div className="grid justify-center">
-                  <img src={Bootstrap} alt="Bootstrap" />
-                </div>
-                <p>Bootstrap</p>
-              </button>
-              <button className="hover:px-12 hover:pt-9 hover:pb-5 innershadow rounded-xl duration-200 gap-y-[8px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
-                <div className="grid justify-center">
-                  <img src={NodeJS} alt="NodeJS" />
-                </div>
-                <p>Node.JS</p>
-              </button>
-              <button className="hover:px-12 hover:pt-9 hover:pb-5 innershadow rounded-xl duration-200 gap-y-[8px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
-                <div className="grid justify-center">
-                  <img src={Python} alt="Python" />
-                </div>
-                <p>Python</p>
-              </button>
-            
+              </div>
+            </button>
+            <button className="px-12 pt-9 pb-5 innershadow rounded-xl duration-200 gap-y-[5px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
+              <div className="grid justify-center">
+                <img src={Javascript} alt="Javascript" />
+              </div>
+              <p>Javascript</p>
+            </button>
+            <button className="px-12 pt-6 pb-5 innershadow rounded-xl duration-200 grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
+              <div className="grid justify-center">
+                <img src={React} alt="React" />
+              </div>
+              <p>React</p>
+            </button>
+            <button className="px-12 pt-6 -mt-0 pb-5 innershadow rounded-xl duration-200 gap-y-[4px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
+              <div className="grid justify-center">
+                <img src={Flutter} alt="Flutter" />
+              </div>
+              <p>Flutter</p>
+            </button>
+
+            <button className="px-12 pt-7 -mt-1 pb-5 innershadow rounded-xl duration-200 gap-y-[4px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
+              <div className="grid justify-center">
+                <img src={Bootstrap} alt="Bootstrap" />
+              </div>
+              <p>Bootstrap</p>
+            </button>
+            <button className="px-12 pt-9 pb-5 -mt-3 innershadow rounded-xl duration-200 gap-y-[4px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
+              <div className="grid justify-center">
+                <img src={NodeJS} alt="NodeJS" />
+              </div>
+              <p>Node.JS</p>
+            </button>
+            <button className="px-12 pt-6 pb-5 innershadow rounded-xl duration-200 gap-y-[8px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
+              <div className="grid justify-center">
+                <img src={Python} alt="Python" />
+              </div>
+              <p>Python</p>
+            </button>
           </div>
 
           {/* Row-2 */}
 
-          <div className="justify-center flex-wrap gap-y-7 flex gap-x-12 lg:gap-x-[78px] mb-10 md:mb-[63px] items-center">
-            {/* < className="flex flex-wrap gap-x-14 gap-y-7 lg:gap-x-[78px] justify-center md:mb-0 mb-7 items-center"> */}
-              <button className="hover:px-12 hover:pt-9 hover:pb-5 innershadow rounded-xl duration-200 gap-y-[8px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
-                <div className="grid justify-center">
-                  <img src={PHP} alt="PHP" />
-                </div>
-                <p>PHP</p>
-              </button>
-              <button className="hover:px-12 hover:pt-9 hover:pb-5 innershadow rounded-xl duration-200 gap-y-[8px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
-                <div className="grid justify-center">
-                  <img src={Wordpress} alt="Wordpress" />
-                </div>
-                <p>Wordpress</p>
-              </button>
-              <button className="hover:px-12 hover:pt-9 hover:pb-5 innershadow rounded-xl duration-200 gap-y-[8px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
-                <div className="grid justify-center">
-                  <img src={Webflow} alt="Webflow" />
-                </div>
-                <p>Webflow</p>
-              </button>
-            
-            {/* < className="flex flex-wrap gap-x-14 gap-y-7 lg:gap-x-[78px] justify-center md:mb-0 mb-7 items-center"> */}
-              <button className="hover:px-12 hover:pt-9 hover:pb-5 innershadow rounded-xl duration-200 gap-y-[8px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
-                <div className="grid justify-center">
-                  <img src={MicrosoftIIS} alt="MicrosoftIIS" />
-                </div>
-                <p>Microsoft IIS</p>
-              </button>
-              <button className="hover:px-12 hover:pt-9 hover:pb-5 innershadow rounded-xl duration-200 gap-y-[8px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
-                <div className="grid justify-center">
-                  <img src={Drupal} alt="Drupal" />
-                </div>
-                <p>Drupal</p>
-              </button>
-            
+          <div className="justify-center flex-wrap gap-y-7 flex gap-x-4 mb-10 md:mb-[63px] items-center">
+            <button className="px-12 pt-9 pb-5 innershadow rounded-xl duration-200 gap-y-[8px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
+              <div className="grid justify-center">
+                <img src={PHP} alt="PHP" />
+              </div>
+              <p>PHP</p>
+            </button>
+            <button className="px-12 pt-9 pb-5 innershadow rounded-xl duration-200 grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
+              <div className="grid justify-center">
+                <img src={Wordpress} alt="Wordpress" />
+              </div>
+              <p>Wordpress</p>
+            </button>
+            <button className="px-12 pt-9 pb-5 innershadow rounded-xl duration-200 gap-y-[12px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
+              <div className="grid justify-center">
+                <img src={Webflow} alt="Webflow" />
+              </div>
+              <p>Webflow</p>
+            </button>
+
+            <button className="px-12 pt-9 pb-5 innershadow rounded-xl duration-200 gap-y-[4px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
+              <div className="grid justify-center">
+                <img src={MicrosoftIIS} alt="MicrosoftIIS" />
+              </div>
+              <p>Microsoft IIS</p>
+            </button>
+            <button className="px-12 pt-9 pb-5 innershadow rounded-xl duration-200 gap-y-[18px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
+              <div className="grid justify-center">
+                <img src={Drupal} alt="Drupal" />
+              </div>
+              <p>Drupal</p>
+            </button>
           </div>
           <div className="justify-center grid">
-            <button className="py-4 px-8 sm:px-20 md:px-[200px] lg:px-[325px] text-[18px] font-semibold leading-[29px] font-[Avenir-Next-Regular] text-white hover:text-xl bg-[#2678F2] duration-150 rounded-full hover:shadow-lg hover:shadow-blue-700">
+            <button className="py-4 px-8 sm:px-20 md:px-[200px] lg:px-[325px] text-[18px] font-semibold leading-[29px] font-[Avenir-Next-Regular] text-white bg-[#2678F2] duration-150 rounded-full">
               View all Technologies
             </button>
           </div>

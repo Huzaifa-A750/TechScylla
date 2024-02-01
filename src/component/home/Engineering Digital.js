@@ -32,10 +32,10 @@ export default function Engineering() {
           <div className="grid justify-center md:justify-normal md:flex gap-x-16 mb-10 md:mb-[113px]">
             <div className="text-center md:text-start">
               <div className="grid justify-center md:justify-start">
-                <img src={HalfCube} alt="HalfCube" className="mb-[22px]" />
+                <img src={HalfCube} alt="HalfCube" className="mb-[14.85px]" />
               </div>
 
-              <h3 className="text-2xl tracking-[0.48px] leading-[50px] font-[Avenir-Next-Regular] font-semibold text-black mb-[18px]">
+              <h3 className="text-2xl tracking-[0.48px] leading-[50px] font-[Avenir-Next-Regular] font-semibold text-black mb-[8px]">
                 Discovery & Consultation
               </h3>
               <p className="sm:w-[312px] text-black text-base font-[Avenir-Next-Regular] font-normal leading-6">
@@ -48,10 +48,10 @@ export default function Engineering() {
             </div>
             <div className="mt-10 md:mt-0 text-center md:text-start">
               <div className="grid justify-center md:justify-start">
-                <img src={Cube} alt="Cube" className="mb-[26px]" />
+                <img src={Cube} alt="Cube" className="mb-[22px]" />
               </div>
 
-              <h3 className="text-2xl tracking-[0.48px] leading-[50px] font-[Avenir-Next-Regular] font-semibold text-black mb-[18px]">
+              <h3 className="text-2xl tracking-[0.48px] leading-[50px] font-[Avenir-Next-Regular] font-semibold text-black mb-[8px]">
                 Strategy & Planning
               </h3>
               <p className="sm:w-[282px] text-black text-base font-[Avenir-Next-Regular] font-normal leading-6">
@@ -92,7 +92,7 @@ export default function Engineering() {
                 <img src={Radar} alt="Radar" className="mb-[22px]" />
               </div>
 
-              <h3 className="text-2xl tracking-[0.48px] leading-[50px] font-[Avenir-Next-Regular] font-semibold text-black mb-[18px]">
+              <h3 className="text-2xl tracking-[0.48px] leading-[50px] font-[Avenir-Next-Regular] font-semibold text-black mt-[4px] mb-[18px]">
                 Testing & Deployment
               </h3>
               <p className="sm:w-[284px] text-black text-base font-[Avenir-Next-Regular] font-normal leading-6">
