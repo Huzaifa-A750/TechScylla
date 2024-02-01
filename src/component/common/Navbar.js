@@ -1,5 +1,6 @@
 import Logo from "../../assets/images/Logo.svg";
 import Hamburger from "../../assets/images/hamburger.svg";
+import About from "../../about.js";
 
 export default function Navbar() {
   return (
@@ -16,6 +17,7 @@ export default function Navbar() {
         </button>
       </div>
 
+
       <div className="gap-x-10 hidden lg:flex font-[Avenir-Next-Regular] font-normal">
         <button className="text-base text-black font-normal leading-6 tracking-[0.32px]">
           Services
@@ -24,7 +26,8 @@ export default function Navbar() {
           Blogs
         </button>
         <button className="text-base text-black font-normal leading-6 tracking-[0.32px]">
-          About Us
+          <a href={About}>About Us</a>
+          <a href={About}>About</a>
         </button>
         <button className="text-base text-black font-normal leading-6 tracking-[0.32px]">
           FAQ
