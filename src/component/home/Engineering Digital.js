@@ -12,7 +12,7 @@ import Youtube from "../../assets/images/Youtube.svg";
 export default function Engineering() {
   return (
     <div className="container mx-auto mt-10 md:mt-0 grid xl:flex justify-center lg:pb-32 pb-10">
-      <div className="px-8 md:px-4 xl:px-16">
+      <div className="px-4 sm:px-8 md:px-4 xl:px-16">
         <div className="justify-center grid xl:justify-start">
         <div className="w-auto sm:w-[448px]">
           <h2 className="text-[#1B1B1B] text-center sm:text-start text-2xl sm:text-[40px] font-[Avenir-Next-Regular] font-semibold leading-7 sm:leading-[48px] mb-0.5">
@@ -38,7 +38,7 @@ export default function Engineering() {
               <h3 className="text-2xl tracking-[0.48px] leading-[50px] font-[Avenir-Next-Regular] font-semibold text-black mb-[8px]">
                 Discovery & Consultation
               </h3>
-              <p className="sm:w-[312px] text-black text-base font-[Avenir-Next-Regular] font-normal leading-6">
+              <p className="px-6 sm:px-0 sm:w-[312px] text-black text-base font-[Avenir-Next-Regular] font-normal leading-6">
                 <span className="italic">“Understanding Your Vision”</span>
                 <br />
                 Our journey begins with understanding your business, goals, and
@@ -54,7 +54,7 @@ export default function Engineering() {
               <h3 className="text-2xl tracking-[0.48px] leading-[50px] font-[Avenir-Next-Regular] font-semibold text-black mb-[8px]">
                 Strategy & Planning
               </h3>
-              <p className="sm:w-[282px] text-black text-base font-[Avenir-Next-Regular] font-normal leading-6">
+              <p className="px-6 sm:px-0 sm:w-[312px] text-black text-base font-[Avenir-Next-Regular] font-normal leading-6">
                 <span className="italic">“Crafting a Tailored Approach”</span>
                 <br />
                 With the insights from the discovery phase, we develop a
@@ -77,7 +77,7 @@ export default function Engineering() {
               <h3 className="text-2xl tracking-[0.48px] leading-[50px] font-[Avenir-Next-Regular] font-semibold text-black mb-[18px]">
                 Execution & Development
               </h3>
-              <p className="sm:w-[320px] text-black text-base font-[Avenir-Next-Regular] font-normal leading-6">
+              <p className="px-6 sm:px-0 sm:w-[312px] text-black text-base font-[Avenir-Next-Regular] font-normal leading-6">
                 <span className="italic">“Bringing Ideas to Life”.</span>
                 <br />
                 Our skilled team gets to work, turning the strategy into
@@ -95,7 +95,7 @@ export default function Engineering() {
               <h3 className="text-2xl tracking-[0.48px] leading-[50px] font-[Avenir-Next-Regular] font-semibold text-black mt-[4px] mb-[18px]">
                 Testing & Deployment
               </h3>
-              <p className="sm:w-[284px] text-black text-base font-[Avenir-Next-Regular] font-normal leading-6">
+              <p className="px-6 sm:px-0 sm:w-[312px] text-black text-base font-[Avenir-Next-Regular] font-normal leading-6">
                 <span className="italic">“Understanding Your Vision”</span>
                 <br />
                 Our journey begins with understanding your business, goals, and

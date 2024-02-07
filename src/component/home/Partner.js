@@ -15,7 +15,7 @@ export default function Partner() {
   return (
     <div className="container mx-auto">
       <div className="grid justify-center pt-[90px]">
-        <div className="justify-center text-center pb-9 sm:pb-[78px] gap-y-2 grid px-4">
+        <div className="justify-center text-center pb-9 sm:pb-[78px] gap-y-2 grid px-0 md:px-4">
           <h1 className="text-black w-auto sm:w-[627px] font-[Avenir-Next-Regular] text-2xl sm:text-[40px] font-semibold leading-9 sm:leading-[48px] pb-2 px-2 md:px-0 sm:pb-0">
             Your Full-Spectrum Digital Partner
           </h1>
@@ -24,43 +24,45 @@ export default function Partner() {
             partnerships. By hiring a dedicated team from us.
           </p>
         </div>
-        <div className="gap-x-3 flex-wrap justify-center lg:flex-nowrap text-center grid sm:flex mb-[40px] border-b-[1px] border-solid border-[#54505066]">
-          <div>
-            <button className="px-[40px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] mb-2 hover:bg-[#2678F2] duration-200">
-              Web Development
-            </button>
-          </div>
-          <div>
-            <button className="px-[40px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] mb-2 hover:bg-[#2678F2] duration-200">
-              Digital Marketing
-            </button>
-          </div>
-          <div>
-            <button className="px-[40px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] mb-2 hover:bg-[#2678F2] duration-200">
-              Ecommerce
-            </button>
-          </div>
-          <div>
-            <button className="px-[40px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] mb-2 hover:bg-[#2678F2] duration-200">
-              Design and Branding
-            </button>
-          </div>
-          <div>
-            <button className="px-[40px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] mb-2 hover:bg-[#2678F2] duration-200">
-              SEO
-            </button>
-          </div>
-          <div>
-            <button className="px-[40px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] mb-2 hover:bg-[#2678F2] duration-200">
-              Others
-            </button>
+        <div className="justify-center overflow-x-auto text-center mb-[40px] border-b-[1px] border-solid border-[#54505066]">
+          <div className="flex">
+            <div>
+              <button className="px-[40px] w-[236px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] mb-2 hover:bg-[#2678F2] duration-200">
+                Web Development
+              </button>
+            </div>
+            <div>
+              <button className="px-[40px] w-[222px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] mb-2 hover:bg-[#2678F2] duration-200">
+                Digital Marketing
+              </button>
+            </div>
+            <div>
+              <button className="px-[40px] w-[178px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] mb-2 hover:bg-[#2678F2] duration-200">
+                Ecommerce
+              </button>
+            </div>
+            <div>
+              <button className="px-[40px] w-[255px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] mb-2 hover:bg-[#2678F2] duration-200">
+                Design and Branding
+              </button>
+            </div>
+            <div>
+              <button className="px-[40px] w-[116] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] mb-2 hover:bg-[#2678F2] duration-200">
+                SEO
+              </button>
+            </div>
+            <div>
+              <button className="px-[40px] w-[137px] py-[6px] rounded-[8px] text-[#545050E5] text-[18px] font-medium font-[Avenir-Next-Regular] leading-8 tracking=[0.36px] hover:text-[white] mb-2 hover:bg-[#2678F2] duration-200">
+                Others
+              </button>
+            </div>
           </div>
         </div>
 
         {/* Row-1 */}
 
         <div className="grid justify-center items-center px-8">
-          <div className="mb-7 md:mb-[50px] flex-wrap gap-y-4 flex items-center justify-center relative">
+          <div className="mb-0 md:mb-[50px] flex-wrap gap-y-4 flex items-center justify-center relative">
             {/* < className="flex flex-wrap gap-x-14 gap-y-7 lg:gap-x-[78px] justify-center md:mb-0 mb-7 items-center"> */}
             <button className="px-10 pt-6 pb-5 innershadow rounded-xl duration-200 grid text-black text-base font-medium items-center leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
               <div className="grid items-center justify-center gap-y-2 -mb-3">
@@ -101,7 +103,7 @@ export default function Partner() {
               </div>
               <p>Node.JS</p>
             </button>
-            <button className="px-12 pt-6 pb-5 innershadow rounded-xl duration-200 gap-y-[8px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
+            <button className="px-12 pt-6 pb-5 innershadow hidden rounded-xl duration-200 gap-y-[8px] md:grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
               <div className="grid justify-center">
                 <img src={Python} alt="Python" />
               </div>
@@ -136,6 +138,12 @@ export default function Partner() {
                 <img src={MicrosoftIIS} alt="MicrosoftIIS" />
               </div>
               <p>Microsoft IIS</p>
+            </button>
+            <button className="px-12 grid md:hidden pt-6 pb-5 innershadow rounded-xl duration-200 gap-y-[8px] text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
+              <div className="grid justify-center">
+                <img src={Python} alt="Python" />
+              </div>
+              <p>Python</p>
             </button>
             <button className="px-12 pt-9 pb-5 innershadow rounded-xl duration-200 gap-y-[18px] grid text-black text-base font-medium leading-8 tracking-[0.32px] font-[Avenir-Next-Regular]">
               <div className="grid justify-center">

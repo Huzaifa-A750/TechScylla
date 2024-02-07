@@ -44,7 +44,7 @@ export default function Navbar() {
 
   return (
     <div
-      className="grid container mx-auto px-8 sm:px-0 xl:px-[70px] py-6"
+      className="grid container mx-auto px-8 sm:px-3 xl:px-[70px] py-6"
       ref={menuRef}
     >
       <div className="flex justify-between md:justify-center gap-0 md:gap-x-14 lg:gap-0 lg:justify-between items-center">
@@ -69,7 +69,12 @@ export default function Navbar() {
           <div className="bg-[#FBFBFB] w-[-webkit-fill-available] top-0 left-0 md:hidden grid mx-auto absolute">
             <div className="justify-end grid">
               <div className="px-4 py-[21.67px]">
-                <img src={Cross} alt="Cross" className="cursor-pointer" onClick={(e) => setIsActiveMobile(!isActiveMobile)}/>
+                <img
+                  src={Cross}
+                  alt="Cross"
+                  className="cursor-pointer"
+                  onClick={(e) => setIsActiveMobile(!isActiveMobile)}
+                />
               </div>
             </div>
             <ul className="font-[Avenir-Next-Regular] font-bold text-base text-black text-start">

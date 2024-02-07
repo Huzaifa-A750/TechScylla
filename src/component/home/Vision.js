@@ -4,7 +4,6 @@ import Excellence from "../../assets/images/Excellence.svg";
 import Happy from "../../assets/images/happy.svg";
 import User from "../../assets/images/user.svg";
 import { useState } from "react";
-// import { useState } from "react";
 
 export default function Vision() {
   const dropdowndata = [
@@ -46,13 +45,13 @@ export default function Vision() {
 
   return (
     <div className="bg-[#D0E1FA] flex justify-center bg-opacity-[34%]">
-      <div className="container px-8 sm:px-20 justify-center grid lg:flex items-center py-12">
+      <div className="container justify-center grid lg:flex items-center py-12">
         <div className="justify-center grid xl:justify-start">
-          <div className="w-auto sm:w-[512px] text-center xl:text-start">
-            <h2 className="text-black font-[Avenir-Next-Regular] text-2xl sm:text-[32px] font-semibold leading-[41.6px] pb-1">
+          <div className="w-auto sm:w-[512px] text-center sm:text-start px-4">
+            <h2 className="text-black font-[Avenir-Next-Regular] text-2xl sm:text-[32px] font-semibold text-center md:text-start leading-[41.6px] pb-1">
               Our Vision at TechScylla
             </h2>
-            <p className="text-black leading-6 font-[Avenir-Next-Regular] text-base px-4 pt-4 md:px-0 md:pt-0">
+            <p className="text-black leading-6 font-[Avenir-Next-Regular] text-base text-center md:text-start md:px-0 md:pt-0">
               We strive to empower businesses and startups by harnessing the
               power of technology, delivering digital services that redefine the
               boundaries of creativity and efficiency.{" "}
@@ -61,14 +60,14 @@ export default function Vision() {
 
           {/* Divider-Start */}
 
-          <div className="justify-center grid md:justify-normal">
+          <div className="justify-center md:grid md:justify-normal">
             <hr class="my-10 xl:my-11 h-[1px] w-auto md:w-full xl:w-[476px] border-t-0 bg-[#54505066]" />
           </div>
 
           {/* Divider-End */}
 
-          <div className="grid justify-center text-center sm:text-start sm:justify-normal sm:flex gap-x-[40px]">
-            <div className="w-[159px] gap-y-[10px] grid">
+          <div className="grid justify-center gap-y-10 text-center sm:text-start sm:justify-normal sm:flex gap-x-[40px]">
+            <div className="w-[159px] gap-y-[10px] grid text-center">
               <p className="text-4xl text-[#302C33] leading-[50px] font-bold font-[Avenir-Next-bold] tracking-[0.72px]">
                 2x
               </p>
@@ -76,15 +75,15 @@ export default function Vision() {
                 <strong>Lower</strong> cost compared to in-house rates
               </p>
             </div>
-            <div className="w-[126px] gap-y-[10px] grid">
+            <div className="w-[159px] sm:w-[126px] gap-y-[10px] grid text-center">
               <p className="text-4xl text-[#302C33] leading-[50px] font-bold font-[Avenir-Next-bold] tracking-[0.72px]">
                 30+
               </p>
-              <p className="text-black font-[Avenir-Next-Regular] leading-6 font-normal -mt-6">
+              <p className="text-black font-[Avenir-Next-Regular] leading-6 font-normal mt-0 sm:-mt-6">
                 <strong>Industries</strong> served
               </p>
             </div>
-            <div className="w-[152px] gap-y-[10px] grid">
+            <div className="w-[159px] sm:w-[152px] gap-y-[10px] grid text-center">
               <p className="text-4xl text-[#302C33] leading-[50px] font-bold font-[Avenir-Next-bold] tracking-[0.72px]">
                 400+
               </p>
@@ -98,53 +97,53 @@ export default function Vision() {
         {/* Vertical-Divider-Start */}
 
         <div class="hidden lg:grid">
-          <div class="inline-block h-[620px] w-[1px] bg-[#54505066] mx-8 xl:mx-[56px] opacity-40"></div>
+          <div class="inline-block h-[620px] w-[1px] bg-[#54505066] lg:mx-8 xl:mx-[56px] opacity-40"></div>
         </div>
 
         {/* col-1 */}
 
-        <div className="grid gap-y-2">
+        <div className="grid gap-y-2 pt-16 sm:pt-0 justify-center">
           {dropdowndata.map((items, index) => (
-            <div className="">
+            <div className="w-[300px] sm:w-[500px] md:w-auto">
               <div
                 key={index} //
-                className={`flex border-[4px] w-auto sm:w-auto lg:w-[594px] xl:w-auto py-5 linear-gradient border-[#ECF3FD] border-solid rounded-[18px] bg-[#F4F4F4] shadow-xl px-4 cursor-pointer ${
+                className={`flex border-[4px] items-center w-auto px-0 sm:px-20 py-5 linear-gradient border-[#ECF3FD] border-solid rounded-[18px] bg-[#F4F4F4] justify-between cursor-pointer ${
                   selected === index
-                    ? "bg-[#ECF3FD] transition-all duration-100 ease-in-out"
+                    ? "bg-[#D0E1FA] shadow-xl transition-all duration-100 ease-in-out"
                     : "shadow-none bg-inherit border-none rounded-none" // Apply a different background color when selected
                 }`}
+                onClick={() => toggle(index)}
               >
                 <div className="pt-2 sm:items-start grid">{items.image}</div>
-                <div className="grid w-auto sm:w-[400px] md:w-[420px] mx-6">
-                  <div
-                    className="font-[Avenir-Next-Regular] justify-between text-black font-semibold leading-7 sm:leading-[50px] text-base tracking-[0.38px]"
-                    onClick={() => toggle(index)}
-                  >
+                <div className="grid w-[241px] sm:w-[400px] md:w-[420px] lg:w-[250px] xl:w-[420px] mx-6">
+                  <div className="font-[Avenir-Next-Regular] justify-between text-black font-semibold leading-7 sm:leading-[50px] text-base tracking-[0.38px]">
                     {items.title}
                   </div>
                   {selected === index && (
-                    <div className="text-black font-[Avenir-Next-Regular] text-sm md:text-base hidden sm:grid font-normal leading-6">
+                    <div className="text-black font-[Avenir-Next-Regular] text-sm md:text-base grid font-normal leading-6">
                       {items.content}
                     </div>
                   )}
                 </div>
                 <div
                   className={`items-center grid ${
-                    selected === index ? "" : "items-center"
+                    selected === index ? "" : "items-center md:-mr-3 lg:-mr-9"
                   }`}
                 >
                   <img
                     src={ArrowDown}
                     alt="ArrowDown"
-                    className={`hover:-mt-1 duration-100 ${
+                    className={`hover:-mt-1 duration-300 ${
                       selected === index ? "rotate-180" : ""
                     }`}
                   />
                 </div>
               </div>
-              <div className={` ${selected === index ? "hidden" : "grid"}`}>
-                <hr class="h-[1px] w-auto sm:w-[532px] md:w-auto lg:w-[420px] xl:w-[466px] border-t-0 bg-[#54505066]" />
-              </div>
+              <hr
+                class={`h-[1px] w-auto sm:mx-20 border-t-0 bg-[#54505066] ${
+                  selected === index ? "hidden" : "grid"
+                }`}
+              />
             </div>
           ))}
 
